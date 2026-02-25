@@ -18,7 +18,7 @@ function Contact() {
     }
 
     return (
-        <section id="contact" className="min-h-screen bg-gray-800 flex flex-col justify-center px-10 md:px-24">
+        <section id="contact" className="min-h-screen bg-gray-900 flex flex-col justify-center px-6 md:px-24 py-20">
             <p className="text-blue-400 font-semibold text-lg mb-3">Get in touch</p>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-10">Contact Me</h2>
 
