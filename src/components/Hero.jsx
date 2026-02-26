@@ -54,8 +54,9 @@ function Hero({ darkMode }) {
           transition={{ duration: 0.6, delay: 0.6 }}
           className={`text-base md:text-lg max-w-xl mb-10 ${darkMode ? "text-gray-500" : "text-gray-600"}`}
         >
-          I build clean, modern web experiences using React.
-          Passionate about crafting digital solutions that make an impact.
+          I build fast, modern and responsive web experiences using React.
+          With 2+ years of experience delivering real client projects,
+          I turn ideas into polished digital products.
         </motion.p>
 
         <motion.div

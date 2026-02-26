@@ -7,7 +7,7 @@ function Navbar({ name, darkMode, toggleTheme }) {
     <nav className={`sticky top-0 z-50 border-b ${darkMode ? "bg-gray-900 border-gray-800" : "bg-white border-gray-200"}`}>
       <div className="flex justify-between items-center px-6 py-4 md:px-16">
         <h2 className={`font-bold text-xl ${darkMode ? "text-white" : "text-gray-900"}`}>
-          {name}'s Portfolio
+          Andrew<span className='text-blue-500'>.dev</span>
         </h2>
 
         {/* Desktop links */}

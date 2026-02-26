@@ -3,14 +3,14 @@ import { motion } from 'framer-motion'
 function About({ darkMode }) {
   const info = {
     name: "Andrew",
-    age: "20",
+    age: "26",
     location: "Nigeria",
-    experience: "Beginner",
-    goal: "To become a professional Frontend Developer"
+    experience: "Junior Developer",
+    goal: "To build world class digital products"
   }
 
   const { name, age, location, experience, goal } = info
-  const skills = ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Git"]
+  const skills = ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Git", "Framer Motion"]
 
   return (
     <section id="about" className={`min-h-screen flex flex-col justify-center px-6 md:px-24 py-20 ${darkMode ? "bg-gray-900" : "bg-white"}`}>
@@ -43,9 +43,9 @@ function About({ darkMode }) {
           viewport={{ once: true }}
         >
           <p className={`text-base md:text-lg leading-relaxed ${darkMode ? "text-gray-400" : "text-gray-600"}`}>
-            Hi! I'm {name}, a passionate developer based in {location}.
-            I started my coding journey and I'm fully committed to
-            growing into a professional frontend developer.
+            Hi! I'm {name}, a Frontend developer based in {location}.
+            Over the past 2 years I've designed and built 17+ projects ranging from analytics platform
+            to client portfolios - delivering clean, fast and user focused web experiences every time.
           </p>
           <p className={`text-base md:text-lg leading-relaxed mt-4 ${darkMode ? "text-gray-400" : "text-gray-600"}`}>
             My goal is {goal}.
