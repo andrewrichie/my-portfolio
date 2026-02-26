@@ -5,6 +5,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/footer'
+import Stats from './components/stats'
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
@@ -15,6 +16,7 @@ function App() {
     <div className={darkMode ? "bg-gray-950" : "bg-gray-50"}>
       <Navbar name="Andrew" darkMode={darkMode} toggleTheme={toggleTheme} />
       <Hero darkMode={darkMode} />
+      <Stats darkMode={darkMode} />
       <About darkMode={darkMode} />
       <Projects darkMode={darkMode} />
       <Contact darkMode={darkMode} />
